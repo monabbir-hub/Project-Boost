@@ -40,6 +40,9 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\QuitApplication.cs" />
+     <Compile Include="Assets\Script\Oscillator.cs" />
+     <Compile Include="Assets\Script\CollisionHandler.cs" />
      <Compile Include="Assets\Script\Movement.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -677,6 +680,9 @@
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
         <HintPath>D:\Unity Projects\Project Boost\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>D:\Unity Projects\Project Boost\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
         <HintPath>D:\Unity Projects\Project Boost\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
@@ -724,6 +730,9 @@
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>D:\Unity Projects\Project Boost\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>D:\Unity Projects\Project Boost\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
         <HintPath>D:\Unity Projects\Project Boost\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
